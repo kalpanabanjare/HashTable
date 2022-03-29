@@ -51,8 +51,7 @@ namespace Hashtable
                 myLinkedList.Append(myMapNode);
             }
             else
-                myMapNode.value = value;
+                myMapNode.value = value;         
         }
     }
 }
-

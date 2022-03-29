@@ -39,5 +39,19 @@ namespace Hashtable
                 Tail = node;
             }
         }
+        public MyMapNode<K, V> delete(MyMapNode<K, V> node)
+
+        //public MyMapNode delete()
+        {
+            MyMapNode<K, V> temp = Head;
+            //MyMapNode temp = Head;
+            this.Tail = temp;
+            return Tail;
+        }
+
+        internal MyMapNode<K, V> Search(string key)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
